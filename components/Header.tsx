@@ -75,7 +75,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
             <img
               src="/logo.png"
               alt="Bright White Label"
-              className="h-20 w-auto object-contain drop-shadow-[0_0_8px_rgba(139,92,246,0.3)]"
+              className="h-32 w-auto object-contain drop-shadow-[0_0_8px_rgba(139,92,246,0.3)]"
             />
           </button>
 
