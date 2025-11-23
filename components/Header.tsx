@@ -73,9 +73,9 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           {/* Logo */}
           <button onClick={() => handleNav('/')} className="flex items-center pl-2 md:pl-4 group z-20 relative transition-transform hover:scale-105">
             <img
-              src="/logo.png"
+              src="/logo.svg"
               alt="Bright White Label"
-              className="h-36 w-auto object-contain drop-shadow-[0_0_8px_rgba(139,92,246,0.3)]"
+              className="h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(139,92,246,0.3)]"
             />
           </button>
 
