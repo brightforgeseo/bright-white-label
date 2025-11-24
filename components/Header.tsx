@@ -64,7 +64,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
 
   return (
     <>
-      <header className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
+      <header className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 py-4">
         <div 
           className="relative glass rounded-3xl px-2 py-2 md:px-3 md:py-2.5 flex items-center justify-between gap-4 md:gap-8 shadow-2xl shadow-black/20 backdrop-blur-xl bg-dark-900/80 border border-white/10 w-full max-w-5xl transition-all hover:border-white/20"
           onMouseLeave={() => setActiveDropdown(null)}
