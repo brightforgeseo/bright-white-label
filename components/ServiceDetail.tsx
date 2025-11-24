@@ -46,7 +46,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ serviceId, onNavigate }) 
   const glowColorClass = glowMap[service.color];
 
   return (
-    <div className="min-h-screen bg-black pt-32 pb-24 animate-fade-in relative overflow-hidden">
+    <div className="min-h-screen bg-black pt-44 pb-24 animate-fade-in relative overflow-hidden">
       
       {/* Ambient Background */}
       <div className="fixed top-0 left-0 w-full h-[800px] overflow-hidden pointer-events-none z-0">

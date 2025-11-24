@@ -21,7 +21,7 @@ const BlogList: React.FC<BlogListProps> = ({ onNavigate }) => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-black pt-32 pb-24">
+    <div className="min-h-screen bg-black pt-44 pb-24">
       {/* Background Ambience */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none">
         <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-brand-900/10 rounded-full blur-[120px]"></div>

@@ -41,7 +41,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ slug, onNavigate }) => {
   }
 
   return (
-    <article className="min-h-screen bg-black pt-32 pb-24 relative">
+    <article className="min-h-screen bg-black pt-44 pb-24 relative">
       {/* ProgressBar */}
       <div className="fixed top-0 left-0 w-full h-1 bg-zinc-900 z-50">
         {/* Simple scroll progress implementation could go here */}
