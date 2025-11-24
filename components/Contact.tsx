@@ -43,9 +43,9 @@ const Contact: React.FC = () => {
         <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-8 text-zinc-500">
            <div className="hover:text-white transition-colors cursor-pointer">partners@brightwhitelabel.com</div>
            <div className="w-1.5 h-1.5 bg-zinc-800 rounded-full hidden md:block"></div>
-           <div className="hover:text-white transition-colors cursor-pointer">San Francisco, CA</div>
+           <div className="hover:text-white transition-colors cursor-pointer">Kathleen Place 4, Block 16, Lot 37 Armani Street, 75 S Francisco, Novaliches, Quezon City, 1116 Metro Manila</div>
            <div className="w-1.5 h-1.5 bg-zinc-800 rounded-full hidden md:block"></div>
-           <div className="hover:text-white transition-colors cursor-pointer">+1 (888) SEO-SCALE</div>
+           <div className="hover:text-white transition-colors cursor-pointer">(+63) 969 620 6182</div>
         </div>
       </div>
     </section>
